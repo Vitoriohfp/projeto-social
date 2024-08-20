@@ -13,10 +13,9 @@ html, body{
 body{
     background-image: url('../imagens/fundo-madeira.jpg');
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    background-position: top center;
-
-background-attachment: fixed;
+    background-attachment: fixed;
 }
 main{
     position: relative; /*PARA CONSEGUIR COLOCAR ALGO NO CENTRO*/
@@ -33,4 +32,11 @@ section#telefone{
     background-image: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
     
+}
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 21px;
+    height: 469px;
+    width: 265px;
 }
